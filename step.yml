@@ -63,36 +63,42 @@ toolkit:
 
 inputs:
   - client_id:
-      opts:
-        category: Amazon Api Client
-        title: "Client ID"
-        is_required: true
+    opts:
+      category: Amazon Api Client
+      title: "Client ID"
+      is_required: true
+      is_expand: true
   - client_secret:
-      opts:
-        category: Amazon Api Client
-        title: "Client secret"
-        is_required: true
-        is_sensitive: true
+    opts:
+      category: Amazon Api Client
+      title: "Client secret"
+      is_required: true
+      is_sensitive: true
+      is_expand: true
   - app_id:
     opts:
       category: App
       title: "App ID"
       is_required: true
+      is_expand: true
   - app_name:
-      opts:
-        category: App
-        title: "App name"
-        is_required: true
+    opts:
+      category: App
+      title: "App name"
+      is_required: true
+      is_expand: true
   - apk_name:
-      opts:
-        category: App
-        title: "APK file name"
-        is_required: true
+    opts:
+      category: App
+      title: "APK file name"
+      is_required: true
+      is_expand: true
   - apk_path:
-      opts:
-        category: App
-        title: "Path to APK"
-        is_required: true
+    opts:
+      category: App
+      title: APK path
+      is_required: true
+      is_expand: true
 
 
 outputs:
